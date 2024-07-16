@@ -1,27 +1,255 @@
-questions = [
-    {"question": "Sharks have been around longer than trees.", "answer": "True"},
-    {"question": "All sharks must keep moving to stay alive.", "answer": "False"},
-    {"question": "Sharks are mammals.", "answer": "False"},
-    {"question": "Great white sharks can live up to 70 years.", "answer": "True"},
-    {"question": "Sharks can only be found in saltwater.", "answer": "False"},
-    {"question": "Sharks have no bones in their bodies.", "answer": "True"},
-    {"question": "Sharks have good eyesight.", "answer": "True"},
-    {"question": "Sharks can be found in every ocean in the world.", "answer": "True"},
-    {"question": "All sharks are dangerous to humans.", "answer": "False"},
-    {"question": "Sharks can smell blood from miles away.", "answer": "True"},
-    {"question": "Sharks do not get cancer.", "answer": "False"},
-    {"question": "Sharks lay eggs.", "answer": "True"},
-    {"question": "Sharks have a sixth sense to detect electromagnetic fields.", "answer": "True"},
-    {"question": "Most sharks are cold-blooded.", "answer": "True"},
-    {"question": "Sharks have been on Earth for about 400 million years.", "answer": "True"},
-    {"question": "Sharks can swim backwards.", "answer": "False"},
-    {"question": "Sharks have multiple rows of teeth.", "answer": "True"},
-    {"question": "A group of sharks is called a school.", "answer": "False"},
-    {"question": "The largest shark species is the whale shark.", "answer": "True"},
-    {"question": "Sharks can replace their teeth throughout their lives.", "answer": "True"},
-    {"question": "Hammerhead sharks have a 360-degree view due to their head shape.", "answer": "True"},
-    {"question": "Sharks are immune to all diseases.", "answer": "False"},
-    {"question": "Sharks do not have scales like other fish.", "answer": "True"},
-    {"question": "Sharks can live in freshwater.", "answer": "True"},
-    {"question": "Sharks have been known to migrate thousands of miles.", "answer": "True"},
-]
+questions = {
+    "response_code": 0,
+    "results": [
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "The color orange is named after the fruit.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Jingle Bells was originally meant for Thanksgiving",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "The Sun rises from the North.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "The Great Wall of China is visible from the moon.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "When you cry in space, your tears stick to your face.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Video streaming website YouTube was purchased in it&#039;s entirety by Facebook for US$1.65 billion in stock.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Dihydrogen Monoxide was banned due to health risks after being discovered in 1983 inside swimming pools and drinking water.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Ping-Pong originated in England",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "It is automatically considered entrapment in the United States if the police sell you illegal substances without revealing themselves.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Pluto is a planet.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "&quot;27 Club&quot; is a term used to refer to a list of famous actors, musicians, and artists who died at the age of 27.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "A pasodoble is a type of Italian pasta sauce.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Gumbo is a stew that originated in Louisiana.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "One of Donald Trump&#039;s 2016 Presidential Campaign promises was to build a border wall between the United States and Mexico.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Bulls are attracted to the color red.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Nutella is produced by the German company Ferrero.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Romanian belongs to the Romance language family, shared with French, Spanish, Portuguese and Italian. ",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "The Lego Group was founded in 1932.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Slovakia is a member of European Union-",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Dihydrogen Monoxide is a dangerous chemical.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "A scientific study on peanuts in bars found traces of over 100 unique specimens of urine.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Adolf Hitler was born in Australia. ",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "The mitochondria is the powerhouse of the cell.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "In 2010, Twitter and the United States Library of Congress partnered together to archive every tweet by American citizens.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "On average, at least 1 person is killed by a drunk driver in the United States every hour.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        }
+    ]
+}

@@ -1,20 +1,11 @@
 from data import questions
 from question_model import Question
+from quiz_brain import QuizBrain
 
 question_bank = []
-score = 0
-for question in questions:
-    question_bank.append(Question(question["question"], question["answer"]))
+quiz_brain = QuizBrain(question_bank)
+for question in questions["results"]:
+    question_bank.append(Question(question["question"], question["correct_answer"]))
 
 
-for question in question_bank:
-    user_answer = input(question.question + ' True or False? ').lower()
-    if user_answer == question.answer.lower():
-        print('Correct')
-        score += 1
-        print(f'Current Score: {score}')
-    else:
-        print('Incorrect')
-        print(f'Current Score: {score}')
-
-print(f'Final Score: {score}')
+quiz_brain.start_quiz()
